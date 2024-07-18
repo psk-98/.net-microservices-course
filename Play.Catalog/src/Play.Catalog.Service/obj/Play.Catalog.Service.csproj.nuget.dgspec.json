@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/omen/Documents/.net-microservice-course/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj": {}
+  },
+  "projects": {
+    "/home/omen/Documents/.net-microservice-course/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/omen/Documents/.net-microservice-course/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj",
+        "projectName": "Play.Catalog.Service",
+        "projectPath": "/home/omen/Documents/.net-microservice-course/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj",
+        "packagesPath": "/home/omen/.nuget/packages/",
+        "outputPath": "/home/omen/Documents/.net-microservice-course/Play.Catalog/src/Play.Catalog.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/omen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/home/omen/Documents/.net-microservice-course/packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Play.Common": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.32, 6.0.32]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.107/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
